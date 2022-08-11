@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "yozuv";
+    src: url("./Dancing_Script/static/DancingScript-Regular.ttf");
+}
+@font-face {
+    font-family: "nimadir";
+    src: url();
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    margin: 1rem 0px;
+    color: red;
+}
+.desc{
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+    font-family: "yozuv";
+}
+html body .main .desc{
+    color: red;
+}
+body .main .desc{
+    color:  blue;
+}
